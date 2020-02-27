@@ -63,9 +63,14 @@ procedure textyzer is
   begin
     open(infp, In_File, To_String(filename));
 
+
+    put_line("The Text");
+    put_line("________");
+    new_line;
     -- Loop through each line in the file
     while(not End_of_File(infp)) loop
       line := Get_Line(infp);
+      put_line(line);
       -- Loop through each word in the line
       whitespaceIndex := 0;
       for i in 1..Length(line) loop
@@ -107,6 +112,11 @@ procedure textyzer is
 
     avgLettersPerWord := Float(totalChar)/Float(totalWords);
     avgWordsPerSentence := Float(totalWords)/Float(totalSentences);
+
+    new_line;
+    put_line("Text Statistics");
+    put_line("_______________");
+    new_line;
 
     put("Number of characters: ");
     put(totalChar);
