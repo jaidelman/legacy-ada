@@ -1,0 +1,181 @@
+V "GNAT Lib v8"
+M P W=b
+A -gnatwa
+A -Wall
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U textyzer%b		textyzer.adb		f2544a3f NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-charac.ads		20170908151217 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170908151217 66457d31 ada.characters.latin_1%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-finali.ads		20180111085525 bf4f806b ada.finalization%s
+D a-flteio.ads		20170908151217 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20170908151217 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-string.ads		20170908151217 90ac6797 ada.strings%s
+D a-strmap.ads		20180111085525 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180111085525 ecdfa332 ada.strings.unbounded%s
+D a-suteio.ads		20180111085525 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-atocou.ads		20180111085525 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-finmas.ads		20180111085525 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180111085525 4ff27390 system.finalization_root%s
+D s-memory.ads		20180111085525 597d6634 system.memory%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stalib.adb		20180111085525 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180111085525 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180111085525 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180111085525 aedef97e system.stream_attributes%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D textyzer.adb		20200227180539 a78f7df9 textyzer%b
+X 1 ada.ads
+16K9*Ada 20e8 42|1r6 1r23 2r6 2r31 3r6 3r29 4r6 4r33 5r6 5r41
+X 6 a-flteio.ads
+20K13*Float_Text_IO[16|46] 42|3w10 3r33
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 42|2w10 2r35
+X 10 a-string.ads
+16K13*Strings 35e16 42|4r10 4r37 5r10 5r45
+X 12 a-strunb.ads
+76K21*Unbounded 490e26 42|4w18 4r45 5r18 5r53
+79R9*Unbounded_String<5|43R9> 474e14 42|8r31 9r16 16r27 26r25 55r34 57r18
+. 149r32 151r18 212r39 224r14
+84V13*Length{natural} 42|18s17 28s17 71s19 74s42 78s18 86s21 169s19 171s42
+. 175s18 181s21 190s25
+94V13*To_Unbounded_String{79R9} 42|75s19 80s21 84s21 87s23 172s19 176s21
+. 179s21 182s21
+100V13*To_String{string} 42|64s25 162s25 215s25
+139V13*Element{character} 42|19s10 19s49 29s10 29s49 32s10 32s50 74s12 78s49
+. 82s31 91s30 171s12 175s49 178s31 186s30
+148V13*Slice{string} 42|75s39 80s41 84s41 87s43 172s39 176s41 179s41 182s41
+X 13 a-suteio.ads
+39K31*Text_IO 61e34 42|5w28 5r63
+42V13*Get_Line{12|79R9} 42|68s15 166s15
+50U14*Get_Line 42|12s5
+X 15 a-textio.ads
+49K13*Text_IO 471e16 42|1w10 1r27
+52P9*File_Type 42|56r12 150r12 213r14
+53n23*In_File{53E9} 42|64r16 162r16 215r16
+92U14*Open 42|64s5 162s5 215s5
+98U14*Close 42|144s5 197s5 216s5
+166U14*New_Line 42|113s5 117s5 121s5 125s5 129s5 133s5 138s5 142s5 199s5
+. 206s7 237s4 241s4
+183V13*End_Of_File{boolean} 42|67s15 165s15
+208U14*Put 42|204s9
+242U14*Put 42|11s5 111s5 115s5 119s5 123s5 127s5 131s5 136s5 140s5 202s7
+263U14*Put_Line 42|220s8
+294X4*Name_Error 42|219r12
+X 16 a-tiflio.ads
+68U14*Put 42|137s5[6|20] 141s5[6|20]
+X 17 a-tiinio.ads
+66U14*Put 42|112s5[7|18] 116s5[7|18] 120s5[7|18] 124s5[7|18] 128s5[7|18]
+. 132s5[7|18] 201s7[7|18]
+X 21 system.ads
+67M9*Address
+X 28 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 34 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 42 textyzer.adb
+6U11*textyzer 6b11 244l5 244t13
+8V12 getFilename{12|79R9} 8b12 14l7 14t18 231s16
+9r5 filename{12|79R9} 12m14 13r12
+16V12 isNumber{boolean} 16b12 16>21 24l7 24t15 97s14
+16r21 word{12|79R9} 18r24 19r18 19r57
+18i9 i{integer} 19r23 19r62
+26V12 isWord{boolean} 26b12 26>19 37l7 37t13 99s17
+26r19 word{12|79R9} 28r24 29r18 29r57 32r18 32r58
+28i9 i{integer} 29r23 29r62 32r23 32r63
+39V12 isPunctuation{boolean} 39b12 39>26 45l7 45t20 78s35 82s17 175s35 178s17
+39e26 c{character} 41r8 41r19 41r30 41r41 41r52
+47V12 isEndOfSentence{boolean} 47b12 47>28 53l7 53t22 91s14 186s14
+47e28 c{character} 49r8 49r19 49r30
+55V12 analyzeText{integer} 55b12 55>24 147l7 147t18 235s11
+55r24 filename{12|79R9} 64r35 235r23
+56p5 infp{15|52P9} 64m10 64r10 67r27 68r24 144m11 144r11
+57r5 line{12|79R9} 68m7 71r26 74r20 74r49 75r45 78r25 78r57 80r47 82r39 84r47
+. 86r28 87r49 91r38
+57r11 word{12|79R9} 75m11 80m13 84m13 87m15 97r23 99r24
+58i5 whitespaceIndex{integer} 70m7 75r51 80r53 84r53 87r55 102m11
+59i5 punctuationIndex{integer} 81m13 85m13 91r44 93m13
+61i5 totalWords{integer} 100m13 100r26 108r49 109r34 116r9
+61i17 totalNumbers{integer} 98m13 98r29 120r9
+61i31 totalPunctuation{integer} 79m13 79r33 83m13 83r33 132r9
+61i49 totalChar{integer} 72m9 72r22 108r32 112r9
+61i60 totalSentences{integer} 92m13 92r31 109r52 124r9
+61i76 totalLines{integer} 105m7 105r21 128r9
+62f5 avgLettersPerWord{float} 108m5 137r9
+62f24 avgWordsPerSentence{float} 109m5 141r9
+71i11 i{integer} 74r26 74r38 75r70 78r14 78r62 80r72 81r33 82r45 84r72 85r33
+. 86r17 87r74 102r30
+149V12 printHist{integer} 149b12 149>22 210l7 210t16 239s11
+149r22 filename{12|79R9} 162r35 239r21
+150p5 infp{15|52P9} 162m10 162r10 165r27 166r24 197m11 197r11
+151r5 line{12|79R9} 166m7 169r26 171r20 171r49 172r45 175r25 175r57 176r47
+. 178r39 179r47 181r28 182r47 186r38
+151r11 word{12|79R9} 172m11 176m13 179m13 182m13 190r32
+152i5 whitespaceIndex{integer} 168m7 172r51 176r53 179r53 182r53 193m11
+152i22 wordLength{integer} 190m11 191r25 191r54
+153i5 punctuationIndex{integer} 177m13 180m13 186r44 187m13
+154a5 wordLengthArr(integer) 159m7 191m11 191r40 203r19
+158i9 i{integer} 159r21
+169i11 i{integer} 171r26 171r38 172r70 175r14 175r62 176r72 177r33 178r45
+. 179r72 180r33 181r17 182r72 193r30
+200i9 i{integer} 201r11 203r33
+203i11 j{integer}
+212V12 checkIfValidFile{boolean} 212b12 212>29 222l7 222t23 232s19
+212r29 filename{12|79R9} 215r35 232r36
+213p7 infp{15|52P9} 215m10 215r10 216m11 216r11
+224r3 filename{12|79R9} 231m4 232r48 235r35 239r33
+225i3 count{integer} 235m2 236r5 239m2 240r5
+226b3 isValidFile{boolean} 229m2 230r12 232m4
+
