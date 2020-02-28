@@ -1,3 +1,10 @@
+-- Joshua Aidelman, 1000139, jaidelma@uoguelph.ca
+
+-- This program reads in a text file and analyzes it, counting the total
+-- characters, words, numbers, sentences, lines and punctuation marks. It also
+-- calculates the average characters per word, and average words per sentence.
+-- The program then prints a histogram of the word length for all the words in
+-- the file.
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
